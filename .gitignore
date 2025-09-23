@@ -1,0 +1,8 @@
+# Ignore environment and DB configs
+.env
+db_connect.php
+db_connect/*.php
+*.zip
+*.tar
+*.gz
+.DS_Store
