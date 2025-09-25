@@ -6,7 +6,10 @@ if (!$code) {
     die("No code provided.");
 }
 
-$url = "http://localhost/rsvp_invitation/index.php?code=" . urlencode($code);
+$url = "http://localhost/rsvp_invitation/landing.php?code=" . urlencode($code);
+
+// Production URL
+//$url = "https://jaehannesglamparty.great-site.net/landing.php?code=" . urlencode($code);
 
 // If download requested
 if (isset($_GET['download'])) {

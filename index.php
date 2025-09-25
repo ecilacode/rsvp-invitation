@@ -27,6 +27,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <!DOCTYPE html>
 
 <head>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest"> 
+
+
 
 <link rel="preload" href="https://fonts.cdnfonts.com/css/dollie-script-personal-use" as="style" onload="this.rel='stylesheet'">
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" as="style" onload="this.rel='stylesheet'">
@@ -246,7 +252,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   padding: 30px 30px 110px 30px;
   margin-top: 60px;
   position: relative;
-  border-radius: 4px;
+  border-radius: 15px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
@@ -588,7 +594,7 @@ button{
   <p>October 10, Friday, 6PM! Casa Ibarra, MOA Complex, Pasay</p>
   
   <div class="heropic-frame">
-    <img class="heropic" src="images/DSCF2668.jpg" alt="hero_image" loading="lazy">
+    <img class="heropic" src="images/EDITED.png" alt="hero_image" loading="lazy">
     <span class="heropic-caption">10.10.25</span>
   </div>
 </section>
@@ -639,7 +645,7 @@ button{
         </span>
       </h2>
       <section id="q1a">
-        <p>The party starts at the 10th of October. Doors will open at 6pm.</p>
+        <p>The party starts on the 10th of October. Doors will open at 6pm.</p>
       </section>
     </label>
   </div>
@@ -663,8 +669,8 @@ button{
       </h2>
       <section id="q2a">
         <p>
-          We encourage taking pictures and making memories to this event! Here's a link to join the Google Photo Album.  
-          We also have a custom filter you can use to make this moment part of your day! (Insert photobooth link here)
+          We encourage taking pictures and making memories to this event! Here's a link to join the <a href="https://drive.google.com/drive/folders/1Wn1HUMBgVFG4RB84lCzbNuLVbvDNxnIT" target="_blank">Google Photo Album.</a>  
+          We also have a <a href="photobooth.php" target="_blank"> custom filter</a> you can use to make this moment part of your day!
         </p>
       </section>
     </label>
@@ -738,8 +744,8 @@ button{
       <section id="q5a">
         <p>
           Dress to impress! The theme is "Shine and Sparkle" so think glitter, sequins, and all things fabulous.  
-          Ladies, this is your chance to rock that stunning gown you've been saving for a special occasion.  
-          Gentlemen, a sharp suit or tuxedo will have you looking dapper and ready to party.
+          Ladies, this is your chance to rock that stunning dress you've been saving for a special occasion.  
+          Gentlemen, a sharp suit or dress shirt will have you looking dapper and ready to party.
         </p>
       </section>
     </label>
