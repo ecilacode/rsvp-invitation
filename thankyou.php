@@ -16,8 +16,8 @@ if (!$guest) {
 
 // Calendar event details - Philippine Time (UTC+8)
 $event_title = "Jaehanne's 18th Birthday Party";
-$event_date = "20241010T100000Z"; // October 10, 2024, 6:00 PM Philippine Time (10:00 AM UTC)
-$event_end = "20241010T150000Z";  // October 10, 2024, 11:00 PM Philippine Time (3:00 PM UTC)
+$event_date = "20251010T100000Z"; // October 10, 2025, 6:00 PM Philippine Time (10:00 AM UTC)
+$event_end = "20251010T150000Z";  // October 10, 2025, 11:00 PM Philippine Time (3:00 PM UTC)
 $event_location = "Casa Ibarra, MOA Complex, Pasay City, Philippines";
 $event_description = "Join us for a night of shine and sparkle! Dress code: Anything that shines, sparkles, and glitters (except pink for ladies). Party like Barbie!";
 
@@ -457,7 +457,7 @@ if (isset($_GET['calendar']) && $_GET['calendar'] === 'download') {
         <?php if ($guest['rsvp_status'] === 'attending'): ?>
         <div class="event-details">
             <h3>📅 Event Details</h3>
-            <p><strong>Date:</strong> October 10, 2024 (Friday)</p>
+            <p><strong>Date:</strong> October 10, 2025 (Friday)</p>
             <p><strong>Time:</strong> 6:00 PM onwards</p>
             <p><strong>Venue:</strong> Casa Ibarra, MOA Complex, Pasay</p>
             <p><strong>Theme:</strong> Shine and Sparkle ✨</p>
