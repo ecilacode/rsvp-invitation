@@ -17,7 +17,7 @@ if (!$guest) {
 // Calendar event details - Philippine Time (UTC+8)
 $event_title = "Jaehanne's 18th Birthday Party";
 $event_date = "20251010T100000Z"; // October 10, 2025, 6:00 PM Philippine Time (10:00 AM UTC)
-$event_end = "20251010T150000Z";  // October 10, 2025, 11:00 PM Philippine Time (3:00 PM UTC)
+$event_end = "  T150000Z";  // October 10, 2025, 11:00 PM Philippine Time (3:00 PM UTC)
 $event_location = "Casa Ibarra, MOA Complex, Pasay City, Philippines";
 $event_description = "Join us for a night of shine and sparkle! Dress code: Anything that shines, sparkles, and glitters (except pink for ladies). Party like Barbie!";
 
